@@ -1,14 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ftjYgND9)
-# Systems Project2 - MyShell
+# Systems Project - MyShell
 
-Group Name: Whimisical Wontons
-Group Members: Owen Zeng, Alvin Yao Yang Cheng, Matthew Cheng
+Collaborators: Matthew Cheng, Alvin Yao Yang Cheng, Owen Zeng
 
-Documentation of Features ( Working✅ / Partial❓ / Broken❌ ):
+Documentation of Features:
 
--✅The feature cd: Our shell successfully implements cd. It allows users to cd between directories, whether by using .. to go backwards or specifying a directory to go into.
+-✅cd: Our shell successfully implements cd. It allows users to cd between directories, whether by using .. to go backwards or specifying a directory to go into.
 
--✅The feature exit: Our shell successfully implements exiting. When using the command exit, the shell exits.
+-✅exit: Our shell successfully implements exiting. When using the command exit, the shell exits.
 
 -✅printPath: this is a helper function that prints the path. It works for the purposes of displaying the path.
 
@@ -23,7 +21,7 @@ Documentation of Features ( Working✅ / Partial❓ / Broken❌ ):
 -✅the prompt: the prompt is working correctly. With every prompt, the correct path is displayed.
 
 
-Functions ( so far ):
+Functions:
 -void parse_args( char * line, char ** arg_ary, char * s );
 
 -void printPath();
